@@ -10,24 +10,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import pe.edu.upc.selenium.MyWebDriver;
 
 public class MulctStepdefs {
-    private WebDriver webDriver;
+    public static WebDriver webDriver;
 
     public MulctStepdefs() {
-        // Variables
-        String urlPage = "http://localhost:8081/onewebs/";
-        // Establece el chrome driver
-        //WebDriver webDriver;
-        String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", pathDriver);
-        webDriver = new ChromeDriver();
-
-        // Carga la pagina
-        webDriver.get(urlPage);
-
-        // --Maximiza la ventana
-        webDriver.manage().window().maximize();
+        webDriver = MyWebDriver.getWebDriver();
     }
 
     @Given("El policia ingresa el username, password y hace click en login")
