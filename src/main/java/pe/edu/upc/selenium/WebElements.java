@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class WebElements {
 
-    static WebDriver webDriver;
+    //static WebDriver webDriver;
     public static void main(String[] args) {
 
         // Variables
@@ -24,14 +24,19 @@ public class WebElements {
         webDriver.manage().window().maximize();
 
         try {
+            // Login: Sign in
+            webDriver.findElement(By.id("username")).sendKeys("police1");
+            webDriver.findElement(By.id("password")).sendKeys("police");
+            webDriver.findElement(By.xpath("/html/body/div/form/button")).click();
+
             WebElement linkPolice = webDriver.findElement(By.id("link-police"));
             WebElement linkDetainee = webDriver.findElement(By.name("link-detainee"));
             WebElement linkMulct = webDriver.findElement(By.xpath("//body//header//nav//div//ul//li[3]//a"));
 
             linkMulct.click();
 
-            /*WebElement btnNuevoMulct = webDriver.findElement(By.id("btn-nuevo-mulct"));
-            btnNuevoMulct.click();*/
+            //WebElement btnNuevoMulct = webDriver.findElement(By.id("btn-nuevo-mulct"));
+            //btnNuevoMulct.click();
 
             webDriver.get("http://localhost:8081/onewebs/mulcts/new");
 
@@ -40,10 +45,10 @@ public class WebElements {
             // Agregando datos al formulario
             sltDetainee.selectByValue("8");
             webDriver.findElement(By.id("fechaDetencion")).sendKeys("20/08/2003");
-            webDriver.findElement(By.id("direccion")).sendKeys("Av. Foucet 1458");
+            webDriver.findElement(By.id("direccion")).sendKeys("Av. Ricardo Palma");
             new Select(webDriver.findElement(By.id("infraccion"))).selectByIndex(1);
             webDriver.findElement(By.id("monto")).clear();
-            webDriver.findElement(By.id("monto")).sendKeys("150");
+            webDriver.findElement(By.id("monto")).sendKeys("250");
 
             //webDriver.findElement(By.xpath("/html/body/main/section/div/div[2]/form/button")).click();
             webDriver.findElement(By.xpath("/html/body/main/section/div/div[2]/form/button")).submit();
