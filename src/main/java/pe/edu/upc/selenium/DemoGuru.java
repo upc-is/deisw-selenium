@@ -12,7 +12,8 @@ public class DemoGuru {
         String urlPage = "http://live.demoguru99.com/";
         // Establece el chrome driver
         WebDriver webDriver;
-        String pathDriver = "C:\\Users\\USUARIO\\IdeaProjects\\deisw-selenium\\driver\\chromedriver.exe";
+
+        String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", pathDriver);
 
         webDriver = new ChromeDriver();

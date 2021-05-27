@@ -11,7 +11,7 @@ public class MyWebDriver {
     }
     public static WebDriver getWebDriver() {
         if(webDriver == null) {
-            String urlPage = "http://localhost:8081/onewebs/";
+            String urlPage = "http://localhost:8081/onewebs/login";
             // Establece el chrome driver
             //WebDriver webDriver;
             String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";

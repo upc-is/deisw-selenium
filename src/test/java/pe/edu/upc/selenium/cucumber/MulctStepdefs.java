@@ -24,8 +24,8 @@ public class MulctStepdefs {
 
 
         // Login: Sign in
-        webDriver.findElement(By.id("username")).sendKeys("police1");
-        webDriver.findElement(By.id("password")).sendKeys("police");
+        webDriver.findElement(By.id("inputUsername")).sendKeys("police1");
+        webDriver.findElement(By.id("inputPassword")).sendKeys("police");
         webDriver.findElement(By.xpath("/html/body/div/form/button")).click();
     }
 
