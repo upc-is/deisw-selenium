@@ -12,7 +12,7 @@ public class Exceptions {
         String urlPage = "https://www.google.com.pe/";
         // Establece el chrome driver
         WebDriver webDriver;
-        String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";
+        String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver_93.exe";
         System.setProperty("webdriver.chrome.driver", pathDriver);
         webDriver = new ChromeDriver();
 
