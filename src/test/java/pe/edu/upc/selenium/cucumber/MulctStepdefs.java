@@ -22,18 +22,18 @@ public class MulctStepdefs {
     @Given("El policia ingresa el username, password y hace click en login")
     public void elPoliciaIngresaElUsernamePasswordYHaceClickEnLogin() {
 
-
+        webDriver.get("http://localhost:8081/onewebs/login");
         // Login: Sign in
-        webDriver.findElement(By.id("username")).sendKeys("police1");
-        webDriver.findElement(By.id("password")).sendKeys("police");
+        webDriver.findElement(By.id("inputUsername")).sendKeys("police1");
+        webDriver.findElement(By.id("inputPassword")).sendKeys("police");
         webDriver.findElement(By.xpath("/html/body/div/form/button")).click();
     }
 
     @And("Hace click en la opción Mulct del menu")
     public void haceClickEnLaOpciónMulctDelMenu() {
-        WebElement linkPolice = webDriver.findElement(By.id("link-police"));
+        //WebElement linkPolice = webDriver.findElement(By.id("link-police"));
         WebElement linkDetainee = webDriver.findElement(By.name("link-detainee"));
-        WebElement linkMulct = webDriver.findElement(By.xpath("//body//header//nav//div//ul//li[3]//a"));
+        WebElement linkMulct = webDriver.findElement(By.xpath("//body//header//nav//div//ul//li[2]//a"));
 
         linkMulct.click();
     }
@@ -51,12 +51,12 @@ public class MulctStepdefs {
         // Select Detenido
         Select sltDetainee = new Select( webDriver.findElement(By.id("detenido") ));
         // Agregando datos al formulario
-        sltDetainee.selectByValue("8");
-        webDriver.findElement(By.id("fechaDetencion")).sendKeys("20/08/2003");
-        webDriver.findElement(By.id("direccion")).sendKeys("Av. Peti tuart");
+        sltDetainee.selectByValue("7");
+        webDriver.findElement(By.id("fechaDetencion")).sendKeys("20/07/2020");
+        webDriver.findElement(By.id("direccion")).sendKeys("Av. Wilson");
         new Select(webDriver.findElement(By.id("infraccion"))).selectByIndex(1);
         webDriver.findElement(By.id("monto")).clear();
-        webDriver.findElement(By.id("monto")).sendKeys("250");
+        webDriver.findElement(By.id("monto")).sendKeys("211");
     }
 
     @And("Hace click en el boton Grabar")

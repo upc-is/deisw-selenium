@@ -21,6 +21,8 @@ public class DemoGuru {
         String titulo = webDriver.getTitle();
         System.out.println(titulo);
 
+        //webDriver.findElement(By.xpath("//*[@id=\"header\"]/div/div[2]/div/a")).click();
+
         //WebElement opcionTV = webDriver.findElement(By.xpath("//*[@id=\"nav\"]/ol/li[2]/a"));
         WebElement opcionTV = webDriver.findElement(By.linkText("TV"));
         opcionTV.click();

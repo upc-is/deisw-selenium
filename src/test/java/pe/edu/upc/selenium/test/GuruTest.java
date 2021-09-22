@@ -10,7 +10,7 @@ class GuruTest {
     @Test
     void comprar() {
         Guru guru = new Guru();
-        String expected = "$900.00";
+        String expected = "$800.00";
         String actual = guru.comprar();
 
         assertEquals(expected, actual);
