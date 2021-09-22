@@ -10,7 +10,7 @@ public class WebElements {
     public static void main(String[] args) {
 
         // Variables
-        String urlPage = "http://localhost:8081/onewebs/";
+        String urlPage = "http://localhost:8081/onewebs/login";
         // Establece el chrome driver
         WebDriver webDriver;
         String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";
@@ -25,11 +25,13 @@ public class WebElements {
 
         try {
             // Login: Sign in
-            webDriver.findElement(By.id("username")).sendKeys("police1");
-            webDriver.findElement(By.id("password")).sendKeys("police");
+            System.out.println("Ingreso U");
+            webDriver.findElement(By.id("inputUsername")).sendKeys("police1");
+            System.out.println("Ingreso P");
+            webDriver.findElement(By.id("inputPassword")).sendKeys("police");
             webDriver.findElement(By.xpath("/html/body/div/form/button")).click();
 
-            WebElement linkPolice = webDriver.findElement(By.id("link-police"));
+            /*WebElement linkPolice = webDriver.findElement(By.id("link-police"));
             WebElement linkDetainee = webDriver.findElement(By.name("link-detainee"));
             WebElement linkMulct = webDriver.findElement(By.xpath("//body//header//nav//div//ul//li[3]//a"));
 
@@ -51,7 +53,7 @@ public class WebElements {
             webDriver.findElement(By.id("monto")).sendKeys("250");
 
             //webDriver.findElement(By.xpath("/html/body/main/section/div/div[2]/form/button")).click();
-            webDriver.findElement(By.xpath("/html/body/main/section/div/div[2]/form/button")).submit();
+            webDriver.findElement(By.xpath("/html/body/main/section/div/div[2]/form/button")).submit();*/
 
 
         } catch ( NoSuchElementException ne) {
