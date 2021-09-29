@@ -6,28 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="dc0c28d7-464b-4ee2-943e-d3bd611e43ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver_win32(1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver_x.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/DemoGuru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/DemoGuru.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/Guru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/Guru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/MyWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/MyWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/Prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/Prueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/WebElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/selenium/WebElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/DemoGuru.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/DemoGuru.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/Exceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/Exceptions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/Guru.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/Guru.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/MyWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/MyWebDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/Prueba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/Prueba.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/WebElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/selenium/WebElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Demo2StepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Demo2StepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiplicarStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MultiplicarStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyStepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SumarStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SumarStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/DeiswStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/DeiswStepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/DetaineeStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/DetaineeStepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/MulctStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/cucumber/MulctStepdefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/test/GuruTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pe/edu/upc/selenium/test/GuruTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +42,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/pe/edu/upc/selenium/wash" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.DemoGuru">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Users\IdeaProjects\deisw-selenium\driver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Registro de una nueva multa">
     <configuration name="DemoGuru" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.upc.selenium.DemoGuru" />
       <module name="selenium" />
@@ -70,6 +80,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Registro de un nuevo detenido" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/detainee.feature" />
+      <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="selenium" />
+      <option name="NAME_FILTER" value="^Registro de un nuevo detenido$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Registro de un nuevo detenido$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Registro de un nuevo detenido" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Registro de una nueva multa" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/mulct.feature" />
+      <option name="GLUE" value="pe.edu.upc.selenium.cucumber" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="selenium" />
+      <option name="NAME_FILTER" value="^Registro de una nueva multa$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Registro de una nueva multa$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Registro de una nueva multa" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Registro de una nueva multa" />
+        <item itemvalue="Cucumber Java.Scenario: Registro de un nuevo detenido" />
         <item itemvalue="Application.DemoGuru" />
         <item itemvalue="Application.Exceptions" />
       </list>
@@ -98,7 +150,11 @@
       <updated>1632348792377</updated>
       <workItem from="1632348795282" duration="1552000" />
       <workItem from="1632350473023" duration="45000" />
-      <workItem from="1632350617816" duration="3839000" />
+      <workItem from="1632350617816" duration="4104000" />
+      <workItem from="1632423412070" duration="5090000" />
+      <workItem from="1632855756425" duration="402000" />
+      <workItem from="1632856844209" duration="5091000" />
+      <workItem from="1632874388184" duration="3663000" />
     </task>
     <servers />
   </component>

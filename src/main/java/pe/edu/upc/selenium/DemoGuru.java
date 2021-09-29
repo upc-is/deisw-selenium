@@ -13,7 +13,7 @@ public class DemoGuru {
         // Establece el chrome driver
         WebDriver webDriver;
 
-        String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver_93.exe";
+        String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver_94.exe";
         System.setProperty("webdriver.chrome.driver", pathDriver);
 
         webDriver = new ChromeDriver();
@@ -22,10 +22,20 @@ public class DemoGuru {
         String titulo = webDriver.getTitle();
         System.out.println(titulo);
 
-        //webDriver.findElement(By.xpath("//*[@id=\"header\"]/div/div[2]/div/a")).click();
+        // Ejemplo 1
+        /*WebElement inputSus;
+        WebElement buttonSus;
+        for(int i = 0; i < 10; i++) {
+            inputSus = webDriver.findElement(By.id("newsletter"));
+            inputSus.sendKeys("juan@correo.com");
+            buttonSus = webDriver.findElement(By.xpath("//*[@id=\"newsletter-validate-detail\"]/div/div[3]/button"));
+            buttonSus.click();
+        }*/
 
+        //webDriver.findElement(By.xpath("//*[@id=\"header\"]/div/div[2]/div/a")).click();
         //WebElement opcionTV = webDriver.findElement(By.xpath("//*[@id=\"nav\"]/ol/li[2]/a"));
 
+        // Ejemplo 2
         WebElement opcionTV = webDriver.findElement(By.linkText("TV"));
         opcionTV.click();
 
@@ -47,7 +57,24 @@ public class DemoGuru {
         WebElement inputLastname = webDriver.findElement(By.id("lastname"));
         inputLastname.sendKeys("Flores");
 
-        inputFirst.clear();
+        WebElement inputEmail = webDriver.findElement(By.id("email_address"));
+        inputEmail.sendKeys("upcdeisw3@correo.com");
+
+        webDriver.findElement(By.id("password")).sendKeys("123456789");
+        webDriver.findElement(By.id("confirmation")).sendKeys("123456789");
+        webDriver.findElement(By.xpath("//*[@id=\"form-validate\"]/div[2]/button")).click();
+
+        webDriver.findElement(By.xpath("//*[@id=\"header\"]/div/div[2]/div/a")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"header-account\"]/div/ul/li[5]/a")).click();
+
+        webDriver.findElement(By.xpath("//*[@id=\"header\"]/div/div[2]/div/a")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"header-account\"]/div/ul/li[1]/a")).click();
+
+        webDriver.findElement(By.id("email")).sendKeys("upcdeisw3@correo.com");
+        webDriver.findElement(By.id("pass")).sendKeys("123456789");
+        webDriver.findElement(By.id("send2")).click();
+
+        /*inputFirst.clear();
         inputMiddlename.clear();
         inputLastname.clear();
         inputFirst.sendKeys("Carlos");
@@ -66,10 +93,16 @@ public class DemoGuru {
         inputLastname.clear();
         inputFirst.sendKeys("Roberto");
         inputMiddlename.sendKeys("Manuel");
-        inputLastname.sendKeys("Chirichi");
+        inputLastname.sendKeys("Chirichi");*/
 
-        /*
-        WebElement addTV2 = webDriver.findElement(By.cssSelector("body > div > div > div.main-container.col3-layout > div > div.col-wrapper > div.col-main > div.category-products > ul > li:nth-child(2) > div > div.actions > button > span > span"));
+
+        /*WebElement opcionTV = webDriver.findElement(By.linkText("TV"));
+        opcionTV.click();
+
+        WebElement addTV = webDriver.findElement(By.xpath("//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[2]/div/div[3]/button"));
+        addTV.click();
+
+        //WebElement addTV2 = webDriver.findElement(By.cssSelector("body > div > div > div.main-container.col3-layout > div > div.col-wrapper > div.col-main > div.category-products > ul > li:nth-child(2) > div > div.actions > button > span > span"));
         addTV2.click();
 
         WebElement opcionMobile = webDriver.findElement(By.xpath("//*[@id=\"nav\"]/ol/li[1]/a"));

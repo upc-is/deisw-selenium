@@ -10,7 +10,7 @@ public class Prueba {
         String urlPage = "https://ajaflorez-coder.github.io/";
 
         WebDriver webDriver;
-        String pathDriver = "C:\\Users\\USUARIO\\IdeaProjects\\deisw-selenium\\driver\\chromedriver.exe";
+        String pathDriver = "C:\\Users\\USUARIO\\IdeaProjects\\deisw-selenium\\driver\\chromedriver_93.exe";
         System.setProperty("webdriver.chrome.driver", pathDriver);
 
         webDriver = new ChromeDriver();

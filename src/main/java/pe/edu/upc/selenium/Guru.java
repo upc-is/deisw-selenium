@@ -12,7 +12,7 @@ public class Guru {
         String urlPage = "http://live.demoguru99.com/";
         // Establece el chrome driver
         WebDriver webDriver;
-        String pathDriver = "C:\\Users\\USUARIO\\IdeaProjects\\deisw-selenium\\driver\\chromedriver.exe";
+        String pathDriver = "C:\\Users\\USUARIO\\IdeaProjects\\deisw-selenium\\driver\\chromedriver_93.exe";
         System.setProperty("webdriver.chrome.driver", pathDriver);
 
         webDriver = new ChromeDriver();
